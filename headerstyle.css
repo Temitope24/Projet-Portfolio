@@ -1,0 +1,51 @@
+body {
+    border: 5px solid blue;
+    overflow-x: hidden;
+    background-color: #FFC8C8;
+}
+
+.logo {
+    font-family: "Comforter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(40px, 10vw, 120px);
+    /*border: 1px solid blue;*/
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: clamp(12px, 1.5vw, 15px);
+    color: #4C4C4C;
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, 0.873);
+}
+
+ul li a svg {
+    width: 1.2em;
+    height: 1.2em;
+}
