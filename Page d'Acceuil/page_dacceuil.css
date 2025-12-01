@@ -2,12 +2,21 @@
     color: white;
 }
 
-main {
-    display: flex;
-    justify-content: center;
+.container {
+    border: 0px solid palevioletred;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-bottom: 50px;
+
 }
 
-img {
-    width: 400px;
-    height: 711px;
+.carres {
+    aspect-ratio: 9/16;
+    border: 2px solid red;
+    background-image: url(Accueil/hehe.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
