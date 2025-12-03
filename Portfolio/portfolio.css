@@ -19,7 +19,7 @@ img {
 
 .carres {
     /*border: 2px solid blue;*/
-    background-color: orange;
+    background-color: #FFDCDC;
     
 }
 
@@ -31,16 +31,27 @@ img {
     padding: 5%;
 }
 
-.petit-1 {
+.petit {
     width: 95%;
     aspect-ratio: 1/1;
     background-color: red;
     margin-top: 5%;
     border-radius: 30px;
-    background-image: url('Portfolio Images/photo.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.petit-1 {
+    background-image: url('Photos-Portfolio/Strawberry-Tart.jpg');
+}
+
+.petit-2 {
+    background-image: url('Photos-Portfolio/Strawberry-Cupcake.jpeg');
+}
+
+.petit-3 {
+    background-image: url('Photos-Portfolio/Cupcakes.JPG ');
 }
 
 .texte {

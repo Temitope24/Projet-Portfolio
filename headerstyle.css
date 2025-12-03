@@ -1,5 +1,5 @@
 body {
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     overflow-x: hidden;
     background-color: #FFC8C8;
 }
@@ -48,4 +48,8 @@ ul li a:hover {
 ul li a svg {
     width: 1.2em;
     height: 1.2em;
+}
+
+.acceuil {
+    color: white;
 }

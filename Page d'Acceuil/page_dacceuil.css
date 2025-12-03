@@ -1,9 +1,5 @@
-.acceuil {
-    color: white;
-}
-
 .container {
-    border: 0px solid palevioletred;
+    /*border: 0px solid palevioletred;*/
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -14,15 +10,40 @@
 
 .carres {
     aspect-ratio: 9/16;
-    border: 2px solid red;
-    background-image: url(Accueil/hehe.jpeg);
+    /*border: 2px solid red;*/
+}
+
+.carre-1 {
+    background-image: url("Photos-Acceuil/IMG_5421.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.carre-2 {
+    background-image: url("Photos-Acceuil/IMG_1460.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carre-3 {
+    background-image: url("Photos-Acceuil/IMG_3715.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carre-4 {
+    background-image: url("Photos-Acceuil/IMG_6082.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .petit-message{
-    border: 2px solid rgb(203, 252, 40);
+    /*border: 2px solid rgb(203, 252, 40);*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -30,7 +51,7 @@
 }
 
 .gauche, .droite {
-    border: 2px solid rgb(40, 178, 252);
+    /*border: 2px solid rgb(40, 178, 252);*/
     flex: 1 1 400px; /* flex-grow:1, flex-shrink:1, flex-basis:400px */
     display: flex;
     justify-content: center;
@@ -44,7 +65,7 @@
 }
 
 .gauche h1 {
-    border: 2px solid rgb(206, 40, 252);
+    /*border: 2px solid rgb(206, 40, 252);*/
     font-family: "Italianno", cursive;
     font-weight: 400;
     font-style: normal;
