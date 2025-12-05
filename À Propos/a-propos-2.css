@@ -5,18 +5,16 @@
     margin: 0 auto;
 }
 
-.Sous-Titre{
+.sous-titre{
     font-family: "Italiana", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 57px;
 }
 
-p{
-    font-family: "Advent Pro", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size:45px;
-    color: rgb(57, 56, 56);
+.paragraphes {
+  font-family: "Poppins", sans-serif;
+  font-weight: 150;
+  font-style: normal;
+  font-size: 25px;
 }
