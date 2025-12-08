@@ -1,3 +1,8 @@
+:root {
+  color-scheme: light;
+  forced-color-adjust: none;
+}
+
 body {
     /*border: 5px solid blue;*/
     overflow-x: hidden;
